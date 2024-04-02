@@ -1,0 +1,190 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(../img/background\ portifolio.png);
+    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a área */
+    background-position: center; /* Centraliza a imagem no elemento */
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+    height: 100%;
+    border: 1px solid rgba(255, 0, 0, 0);
+      
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    text-align: center;
+    border: 1px solid #ffffff;
+    background-color: #5f565691;
+    /* position: fixed; */
+    float: left;
+    width: 200px;
+    height: 744px;
+    
+}
+
+header img{
+    margin-top: 5em;
+}
+
+li{
+    margin: 2em 0px;
+}
+
+li a{
+    /* border: 1px solid red; */
+    margin-top: 5em;
+    list-style: none;
+    display: inline;
+}
+
+a{
+    padding: 10px;
+    color: #5f5656;
+    text-decoration:none;
+    font-size: 20px;
+    border: 1px solid #424242a8;
+    border-radius: 3cm;
+    background-color: #fffffff3;
+}
+
+a:hover{
+    color: #eeeeeeda;
+    background-color: #4d4d4d;
+}
+
+main h1{
+    color: #000000c4;
+}
+
+#formulario{
+    /* border: 1px solid rgb(244, 244, 248); */
+    padding-left: 10%;
+    margin-top: 40px;
+    margin-left: 13%;
+    /* position: relative;
+    left: 13em; */
+}
+
+.redes{
+    float: left;
+    width: 400px;
+    text-align: center;
+    margin:10% 0%;
+    margin-left: 5%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2cm;
+    background:
+        linear-gradient(
+          142deg,
+          rgb(252, 252, 252),
+          #5c5c5ca2
+          );
+    box-shadow: -10px 10px 50px #181717c5;
+}
+
+.redes h1{
+    line-height: 100px;
+}
+
+.redes a{
+    /* border: 1px solid red; */
+    width: 50px;
+    text-align: center;
+    line-height: 70px;
+    padding: 20px;
+}
+
+#iconwhatsapp img{
+    position: relative;
+    top: 11px;
+    left: 2px;
+}
+
+#iconemail{
+    /* border: 1px solid red; */
+    margin: 40px 80px;
+}
+
+#iconemail img{
+    position: relative;
+    top: 8px;
+    left: 1px;
+}
+
+button {
+    cursor: pointer;
+    position: relative;
+    font-size: 1.2em;
+    padding: 0.7em 1.4em;
+    background-color: #515757a2;
+    text-decoration: none;
+    border: none;
+    border-radius: 0.5em;
+    color: #DEDEDE;
+    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+}
+
+form{
+    float: left;
+    width: 400px;
+    margin-left: 5%;
+    /* border: 1px solid red; */
+}
+
+form h1{
+    color: #000000c4;
+    line-height: 90px;
+}
+
+.preenchimento{
+    text-align: center;
+    margin:5% 0%;
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2cm;
+    background:
+        linear-gradient(
+          142deg,
+          rgb(252, 252, 252),
+          #5c5c5ca2
+          );
+    box-shadow: -10px 10px 50px #181717c5;
+}
+
+.preenchimento, input{
+    margin-bottom: 20px;
+}
+
+.preenchimento, h1{
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+button img{
+    width: 50px;
+}
+
+@media screen and (max-width: 720px) {
+
+    body{
+        font-family: Arial, Helvetica, sans-serif;
+        background-image: url(../img/background\ portifolio.png);
+        background-repeat: repeat-x;
+    }
+
+    #formulario{
+        margin-left: 10%;
+    }
+    
+    
+}
+  
+
