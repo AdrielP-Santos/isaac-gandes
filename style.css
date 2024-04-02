@@ -26,12 +26,13 @@ nav{
 }
 
 ul{
-    border: 5px solid rgba(255, 0, 0, 0);
+    border: 2px solid rgba(255, 0, 0, 0);
     /* margin-top: 3em; */ 
 }
 
 li{
     /* border: 1px solid rgb(255, 0, 0); */
+    margin-top: 5em;
     list-style: none;
     padding: 1em 1em;
     margin-right: 20px;
@@ -40,8 +41,14 @@ li{
 
 
 a{
+    
+    background-color: rgba(0, 0, 0, 0.432);
+    border-radius: 3cm;
+    margin-top: 5em;
     color: #ffffff;
     text-decoration: none;
+    font-size: 20px;
+    padding: 15px;
 }
 
 .logotipo{
@@ -53,27 +60,14 @@ a{
 ul li{
     /* border: 1px solid red; */
     float: right;
-    background-color: rgba(0, 0, 0, 0.432);
-    border: 2px solid e5e5e5;
-    border-radius: 3cm;
-    margin-top: 5em;
 }
 
-ul li:hover{
+a:hover{
     transition: 0.5s;
     background-color: #000000bd;
     color: #fff;
     border: 1px solid #ffffff;
 }
-
-/* #link3{
-border: 1px solid red;
-    float: right;
-    background-color: rgb(0, 0, 0, 0.432);
-    border: 2px solid e5e5e5;
-    border-radius: 3cm;
-    margin-top: 5em;
-} */
 
 /* area principal */
 
