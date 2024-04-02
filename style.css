@@ -40,7 +40,7 @@ li{
 
 
 
-a{
+li a{
     
     background-color: rgba(0, 0, 0, 0.432);
     border-radius: 3cm;
@@ -62,7 +62,7 @@ ul li{
     float: right;
 }
 
-a:hover{
+li a:hover{
     transition: 0.5s;
     background-color: #000000bd;
     color: #fff;
