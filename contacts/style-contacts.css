@@ -4,33 +4,51 @@
 }
 
 body{
-    font-family: Arial, Helvetica, sans-serif;
+    min-width: 750px;
+    min-height: 100%;
+    font-family: Arial, Helvetica, sans-serif;        
     background-image: url(../img/background\ portifolio.png);
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir a área */
     background-position: center; /* Centraliza a imagem no elemento */
+
+}
+
+#container{
+    position: relative;    
     text-align: center;
     margin: 0px;
     padding: 0px;
-    height: 99vh;
-    border: 1px solid rgba(255, 0, 0, 0);
-      
+    height: 150%; 
 }
 
 .clear{
     clear: both;
 }
 
+/* inicio da nav */
+
 header{
+    position: fixed;    
+    height: 99%;
+    width: 200px; 
+    background: url(../img/background\ nav\ desfoque.png);
+    height: 100%;
+}
+
+nav{
+    position: relative;
+    height: 99%;
     text-align: center;
     border: 1px solid #ffffff;
     background-color: #5f565691;
-    float: left;
-    width: 200px;
-    height: 100.5%;    
+    background: url(../img/Captura\ de\ tela\ 2024-03-14\ 215243.png) no-repeat center top 5% ;
+
 }
 
-header img{
-    margin-top: 5em;
+ul{
+    margin-top: 100%;
+    list-style: none;
+    align-items: center;
 }
 
 li{
@@ -58,22 +76,30 @@ a:hover{
     background-color: #4d4d4d;
 }
 
+/* final da nav */
+
+/* inicio da area de contatos */
+
+main{
+    width: 80%;    
+    height: 98%;
+    margin-left: 200px;
+
+}
+
 main h1{
     color: #000000c4;
 }
 
 #formulario{
-    padding-left: 10%;
-    margin-top: 70px;
-    margin-left: 13%;
+    width: 99%;
 }
 
 .redes{
     float: left;
-    width: 400px;
-    text-align: center;
+    width: 30%;
     margin:10% 0%;
-    margin-left: 5%;
+    margin-left: 15%;
     border: 1px solid rgb(255, 255, 255);
     border-radius: 2cm;
     background:
@@ -91,9 +117,9 @@ main h1{
 
 .redes a{
     width: 50px;
-    text-align: center;
-    line-height: 70px;
+    line-height: 90px;
     padding: 20px;
+    margin: 20px;
 }
 
 #iconwhatsapp img{
@@ -102,9 +128,6 @@ main h1{
     left: 2px;
 }
 
-#iconemail{
-    margin: 40px 80px;
-}
 
 #iconemail img{
     position: relative;
@@ -127,7 +150,7 @@ button {
 
 form{
     float: left;
-    width: 400px;
+    width: 35%;
     margin-left: 5%;
 }
 
@@ -137,6 +160,7 @@ form h1{
 }
 
 .preenchimento{
+    min-width:300px ;
     text-align: center;
     margin:5% 0%;
     border: 1px solid rgb(255, 255, 255);
@@ -163,17 +187,4 @@ button img{
     width: 50px;
 }
 
-@media screen and (max-width: 720px) {
-
-    body{
-        font-family: Arial, Helvetica, sans-serif;
-        background-image: url(../img/background\ portifolio.png);
-        background-repeat: repeat-x;
-    }
-
-    #formulario{
-        margin-left: 10%;
-    }
-    
-    
-}
+/* final da area de contatos */
