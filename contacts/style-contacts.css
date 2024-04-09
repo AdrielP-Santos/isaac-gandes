@@ -4,21 +4,19 @@
 }
 
 body{
-    min-width: 750px;
-    min-height: 100%;
+    min-width: 1000px;
+    height: 100vh;
     font-family: Arial, Helvetica, sans-serif;        
     background-image: url(../img/background\ portifolio.png);
+    background-repeat: no-repeat;
     background-size: cover; /* Ajusta o tamanho da imagem para cobrir a área */
     background-position: center; /* Centraliza a imagem no elemento */
 
 }
 
 #container{
-    position: relative;    
+    position: relative;       
     text-align: center;
-    margin: 0px;
-    padding: 0px;
-    height: 150%; 
 }
 
 .clear{
@@ -27,28 +25,27 @@ body{
 
 /* inicio da nav */
 
-header{
-    position: fixed;    
-    height: 99%;
-    width: 200px; 
-    background: url(../img/background\ nav\ desfoque.png);
-    height: 100%;
+#cabeçalho{
+    position: relative;
 }
 
-nav{
-    position: relative;
-    height: 99%;
+#cabeçalho nav{
+    background: url(../img/background\ nav\ desfoque.png) no-repeat center;
+    position: fixed;    
+    width: 200px;    
+    height: 80%;
+    top: 20px;
+    left: 20px;
     text-align: center;
     border: 1px solid #ffffff;
     background-color: #5f565691;
-    background: url(../img/Captura\ de\ tela\ 2024-03-14\ 215243.png) no-repeat center top 5% ;
 
 }
 
 ul{
-    margin-top: 100%;
+    background: url(../img/Captura\ de\ tela\ 2024-03-14\ 215243.png) no-repeat top 10% center;
+    padding-top: 200px;
     list-style: none;
-    align-items: center;
 }
 
 li{
