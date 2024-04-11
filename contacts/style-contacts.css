@@ -4,184 +4,82 @@
 }
 
 body{
-    min-width: 1000px;
-    height: 100vh;
-    font-family: Arial, Helvetica, sans-serif;        
-    background-image: url(../img/background\ portifolio.png);
-    background-repeat: no-repeat;
-    background-size: cover; /* Ajusta o tamanho da imagem para cobrir a área */
-    background-position: center; /* Centraliza a imagem no elemento */
-
+    font-family: Arial, Helvetica, sans-serif;
+    background: url(../img/background\ portifolio.png)center no-repeat;
+    background-size: cover;
 }
 
 #container{
-    position: relative;       
-    text-align: center;
-}
-
-.clear{
-    clear: both;
-}
-
-/* inicio da nav */
-
-#cabeçalho{
+    min-width: 720px;
+    display: flex;
     position: relative;
 }
 
-#cabeçalho nav{
-    background: url(../img/background\ nav\ desfoque.png) no-repeat center;
-    position: fixed;    
-    width: 200px;    
-    height: 80%;
-    top: 20px;
-    left: 20px;
-    text-align: center;
-    border: 1px solid #ffffff;
-    background-color: #5f565691;
+nav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 15%;
+    height: 99.5vh;
+    display: flex;
+    background-color: #ffffffa6;
+    border: 1px solid #000000af;
 
 }
+
 
 ul{
-    background: url(../img/Captura\ de\ tela\ 2024-03-14\ 215243.png) no-repeat top 10% center;
+    width: 100%;
+    background: url(../img/Captura\ de\ tela\ 2024-03-14\ 215243.png) no-repeat center top 2em;
     padding-top: 200px;
+    text-align: center;
+    /* border: 1px solid blue; */
     list-style: none;
 }
 
-li{
-    margin: 2em 0px;
+ul li{
+    padding: 25px 0px;
 }
 
-li a{
-    margin-top: 5em;
-    list-style: none;
-    display: inline;
+ul li a{
+    padding: 1rem;
+    font-size: 1em;
+    color: #000;
+    text-decoration: none;
 }
 
-a{
-    padding: 10px;
-    color: #5f5656;
-    text-decoration:none;
-    font-size: 20px;
-    border: 1px solid #424242a8;
-    border-radius: 3cm;
-    background-color: #fffffff3;
+ul li a:hover{
+    text-decoration: underline;
+    text-shadow: -5px 5px#969494a2;
 }
-
-a:hover{
-    color: #eeeeeeda;
-    background-color: #4d4d4d;
-}
-
-/* final da nav */
-
-/* inicio da area de contatos */
 
 main{
-    width: 80%;    
-    height: 98%;
-    margin-left: 200px;
-
-}
-
-main h1{
-    color: #000000c4;
+    margin-left: 15%;
+    width: 95%;
+    border: 1px solid rgb(255, 0, 0);
 }
 
 #formulario{
-    width: 99%;
+    padding-top: 30px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0);
 }
 
 .redes{
-    float: left;
-    width: 30%;
-    margin:10% 0%;
-    margin-left: 15%;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 2cm;
-    background:
-        linear-gradient(
-          142deg,
-          rgb(252, 252, 252),
-          #5c5c5ca2
-          );
-    box-shadow: -10px 10px 50px #181717c5;
-}
-
-.redes h1{
-    line-height: 100px;
-}
-
-.redes a{
-    width: 50px;
-    line-height: 90px;
-    padding: 20px;
+    text-align: center;
+    padding: 10px;
     margin: 20px;
-}
-
-#iconwhatsapp img{
-    position: relative;
-    top: 11px;
-    left: 2px;
-}
-
-
-#iconemail img{
-    position: relative;
-    top: 8px;
-    left: 1px;
-}
-
-button {
-    cursor: pointer;
-    position: relative;
-    font-size: 1.2em;
-    padding: 0.7em 1.4em;
-    background-color: #515757a2;
-    text-decoration: none;
-    border: none;
-    border-radius: 0.5em;
-    color: #DEDEDE;
-    box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
+    float: left;
+    width: 300px;
+    border: 1px solid red;
 }
 
 form{
-    float: left;
-    width: 35%;
-    margin-left: 5%;
-}
-
-form h1{
-    color: #000000c4;
-    line-height: 90px;
-}
-
-.preenchimento{
-    min-width:300px ;
     text-align: center;
-    margin:5% 0%;
-    border: 1px solid rgb(255, 255, 255);
-    border-radius: 2cm;
-    background:
-        linear-gradient(
-          142deg,
-          rgb(252, 252, 252),
-          #5c5c5ca2
-          );
-    box-shadow: -10px 10px 50px #181717c5;
+    float: left;
+    display: inline-block;
+    border: 1px solid blue;
+    padding: 10px;
+    margin: 20px;
 }
 
-.preenchimento, input{
-    margin-bottom: 20px;
-}
-
-.preenchimento, h1{
-    color: #000000;
-    margin-bottom: 20px;
-}
-
-button img{
-    width: 50px;
-}
-
-/* final da area de contatos */
