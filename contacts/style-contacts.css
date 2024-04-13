@@ -7,7 +7,6 @@
 
 body{
     font-family: Arial, Helvetica, sans-serif;
-<<<<<<< HEAD
     background-image: url(../img/background\ portifolio.png);
 }
 
@@ -17,45 +16,22 @@ body{
 
 /* começo do navbar */
 header{
-=======
-    background: url(../img/background\ portifolio.png)center no-repeat;
-    background-size: cover;
-}
-
-#container{
-    min-width: 720px;
-    display: flex;
->>>>>>> a014e726a62e4198bfa9a4ea7d29efbb274ef0df
     position: relative;
 }
 
 nav{
     position: fixed;
-<<<<<<< HEAD
     width: 200px;
     height: 100%;
     background-image: url(../img/background\ nav\ desfoque.png);
     background-color: #ffffffa6;
     border: 1px solid #000000af;
-=======
-    top: 0;
-    left: 0;
-    width: 15%;
-    height: 99.5vh;
-    display: flex;
-    background-color: #ffffffa6;
-    border: 1px solid #000000af;
-
->>>>>>> a014e726a62e4198bfa9a4ea7d29efbb274ef0df
 }
 
 
 ul{
     width: 100%;
-<<<<<<< HEAD
     margin-top: 150px;
-=======
->>>>>>> a014e726a62e4198bfa9a4ea7d29efbb274ef0df
     background: url(../img/Captura\ de\ tela\ 2024-03-14\ 215243.png) no-repeat center top 2em;
     padding-top: 200px;
     text-align: center;
@@ -70,16 +46,12 @@ ul li{
 ul li a{
     padding: 1rem;
     font-size: 1em;
-<<<<<<< HEAD
     border-bottom:1px solid #CCC ;
-=======
->>>>>>> a014e726a62e4198bfa9a4ea7d29efbb274ef0df
     color: #000;
     text-decoration: none;
 }
 
 ul li a:hover{
-<<<<<<< HEAD
     text-shadow: -5px 5px#969494a2;
 }
 
@@ -97,27 +69,10 @@ main{
     justify-content: center;
     align-items: center;
     padding-top: 9%;
-=======
-    text-decoration: underline;
-    text-shadow: -5px 5px#969494a2;
-}
-
-main{
-    margin-left: 15%;
-    width: 95%;
-    border: 1px solid rgb(255, 0, 0);
-}
-
-#formulario{
-    padding-top: 30px;
-    width: 100%;
-    border: 1px solid rgba(128, 128, 128, 0);
->>>>>>> a014e726a62e4198bfa9a4ea7d29efbb274ef0df
 }
 
 .redes{
     text-align: center;
-<<<<<<< HEAD
     padding: 20px;
     margin: 20px;
     width: 300px;
@@ -353,21 +308,3 @@ label {
   
 
 /* area de final do form----------------------------------------------------- */
-=======
-    padding: 10px;
-    margin: 20px;
-    float: left;
-    width: 300px;
-    border: 1px solid red;
-}
-
-form{
-    text-align: center;
-    float: left;
-    display: inline-block;
-    border: 1px solid blue;
-    padding: 10px;
-    margin: 20px;
-}
-
->>>>>>> a014e726a62e4198bfa9a4ea7d29efbb274ef0df
