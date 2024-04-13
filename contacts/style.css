@@ -1,4 +1,6 @@
-
+html{
+    border: 1px solid red;
+}
 
 *{
     padding: 0px;
@@ -6,8 +8,13 @@
 }
 
 body{
+    border: 1px solid rgb(38, 0, 255);
     font-family: Arial, Helvetica, sans-serif;
     background-image: url(../img/background\ portifolio.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-width: 720px;
 }
 
 #container{
@@ -15,15 +22,11 @@ body{
 }
 
 /* começo do navbar */
-header{
-    position: relative;
-}
+
 
 nav{
-    position: fixed;
-    width: 200px;
     height: 100%;
-    background-image: url(../img/background\ nav\ desfoque.png);
+    width: 200px;
     background-color: #ffffffa6;
     border: 1px solid #000000af;
 }
@@ -58,8 +61,8 @@ ul li a:hover{
 /* final do navbar */
 
 main{
-    width: 100%;
-    margin-left: 200px;
+    width: auto;
+    border: 1px solid rgb(0, 255, 55);
 }
 
 #formulario{
@@ -68,12 +71,14 @@ main{
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding-top: 9%;
+    padding-top: 30px;
+    width: 100%;
+    border: 1px solid rgba(128, 128, 128, 0);
 }
 
 .redes{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     margin: 20px;
     width: 300px;
     height: 200px;
@@ -122,14 +127,8 @@ main{
     background: url(../img/icons/envelope.1024x769.png)no-repeat center;
 }
 
-
-
-/* area de inicio do form----------------------------------------------------- */
-
-form{
-    justify-content: center;
+form{justify-content: center;
     width: 400px;
-    height: 600px;
     text-align: center;
     border: 1px solid rgba(0, 0, 255, 0);
     border-radius: 10px;
@@ -143,9 +142,11 @@ form .preenchimento h1{
     text-decoration: underline;
 }
 
+/* area de inicio do form----------------------------------------------------- */
 
 #botoes{
-    margin: 0px 90px;
+    width: 250px;
+    margin-left: 70px;
 }
 
 .group {

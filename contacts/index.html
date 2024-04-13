@@ -1,26 +1,25 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width,initial-scale=1.0">
-    <title>Contato</title>
-    <link rel="stylesheet" href="../normalize.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
     <link rel="stylesheet" href="style-contacts.css">
-    
+    <style>
+        #container {
+            width: 100%;
+        }
+    </style>
 </head>
 <body>
-
     <div id="container">
-
-        <header id="cabeçalho">
+        <header>
             <nav>
                 <div class="logotipo"></div>
                 <ul>
                     <li id="link1">
                         <a href="../projects/index.html">Projetos</a>
                     </li>
-                    <br>
-                    <br>
                     <li id="link3">
                         <a href="../index.html">Pagina Inicial</a>
                     </li>
@@ -29,62 +28,72 @@
         </header>
         <main>
             <div id="formulario">
-
                 <div class="redes">
                     <h1>contate-nos via:</h1>
-
+                    <br>
                     <div id="iconwhatsapp">
                         <a  href="https://api.whatsapp.com/send/?phone=5519987706303&text=isaac+voce+tem+cara+de+bobao&type=phone_number&app_absent=0">
-                            <img width="40px" height="40px" src="../img/icons/whatsapp.1018x1024.png" alt="">
+                            Whatsapp
                         </a>
                     </div>
                     <div id="iconemail">
                         <a href="mailto:isaacdesingngandes@gmail.com">
-                            <img width="40px" height="30px" src="../img/icons/envelope.1024x769.png" alt="">
+                            Email
                         </a>
-                    </div>
-                    <br>                
+                    </div>             
                 </div>
-
                 <form>
                     <div class="preenchimento">
-                        <br> 
                         <h1>preencha o formulario</h1>
 
-                        <br>
-
-                        <label for="name">Nome:</label>
-                        <br>
-                        <input type="text" name="name" id="name">
-
-                        <br>
-
-                        <label for="email">Email:</label>
-                        <br>
-                        <input type="email" name="email" id="email">
-
-                        <br>
-
-                        <label for="telefone">Telefone:</label>
-                        <br>
-                        <input type="tel" name="telefone" id="telefone">
-
-                        <br>
-
-                        <label for="assunto">Mensagem:</label><br>
-                        <textarea name="Mensagem" id="assunto" cols="30" rows="10"></textarea>
-
                         <br><br>
-
-                        <button type="submit">enviar</button>
-
-                        <br><br>
-
+                        <div id="botoes">
+                            <div class="group">
+                                <input required="" type="text" class="input">
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Name</label>
+                            </div>
+                            <br><br>
+                            <div class="group">
+                                <input required="" type="email" class="input">
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Email</label>
+                            </div>
+                            <br><br>
+                            <div class="group">
+                                <input required="" type="tel" class="input">
+                                <span class="highlight"></span>
+                                <span class="bar"></span>
+                                <label>Telefone</label>
+                            </div>
+                            <br><br>
+                        </div>
+                        <label for="assunto"></label><br>
+                        <textarea name="Mensagem" id="assunto" cols="30" rows="10" placeholder="   Assunto:"></textarea>
+                        <br><br><br><br>
+                        <button class="cssbuttons-io-button">
+                            ENVIAR
+                            <div class="icon">
+                                <svg
+                                height="24"
+                                width="24"
+                                viewBox="0 0 24 24"
+                                xmlns="http://www.w3.org/2000/svg"
+                                >
+                                    <path d="M0 0h24v24H0z" fill="none"></path>
+                                    <path
+                                    d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                    fill="currentColor"
+                                    ></path>
+                                </svg>
+                            </div>
+                        </button>
                     </div>
                 </form>
-                <div class="clear"></div>
             </div>
         </main>
-    </div>    
+    </div> 
 </body>
 </html>
