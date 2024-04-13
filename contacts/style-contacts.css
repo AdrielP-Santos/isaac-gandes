@@ -242,6 +242,7 @@ label {
 }
 
 #assunto{
+    padding: 10px;
     border-radius: 10px;
     background: #97979700;
 }
